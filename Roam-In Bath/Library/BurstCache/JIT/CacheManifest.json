@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-09T14:57:28.160343Z"
+      "LastWriteTime": "2024-05-13T13:40:56.0407833Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -19,19 +19,15 @@
     },
     {
       "FullName": "Unity.RenderPipelines.HighDefinition.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-09T14:57:29.844193Z"
-    },
-    {
-      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2022-05-11T02:41:28Z"
-    },
-    {
-      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2024-05-09T14:57:28.4405311Z"
+      "LastWriteTime": "2024-05-13T13:40:59.8803125Z"
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2022-05-11T02:41:28Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2024-05-13T13:40:56.082877Z"
     }
   ],
   "Functions": [
@@ -55,8 +51,7 @@
         3,
         4,
         2,
-        1,
-        5
+        1
       ]
     },
     {
@@ -66,6 +61,7 @@
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
+        5,
         1,
         2
       ]
@@ -80,8 +76,7 @@
         4,
         2,
         1,
-        6,
-        5
+        6
       ]
     },
     {
@@ -92,11 +87,9 @@
       "AssemblyDependencyIndices": [
         3,
         4,
-        7,
         6,
         2,
-        1,
-        5
+        1
       ]
     }
   ]

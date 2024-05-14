@@ -6,9 +6,9 @@ public class Movement : MonoBehaviour
 {
     public Transform[] waypoints;//it is public so it show the inspector.
     private int currentWaypointIndex;
-    private float speed = 2;
+    private float speed = 1;
 
-    private float waitTime = 10f; //This is in seconds.
+    private float waitTime = 36f; //This is in seconds.
     private float waitCounter = 0f;
     private bool waiting = false;
 
@@ -24,7 +24,6 @@ public class Movement : MonoBehaviour
             }
         }
 
-
         Transform wp = waypoints[currentWaypointIndex];
         if (Vector3.Distance(transform.position, wp.position) < 0.01f)
         {
@@ -36,7 +35,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            transform.position = Vector3.MoveTowards(transform.position, wp.position, speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, wp.position, (speed % 2) * Time.deltaTime);
         }
     }
 }
